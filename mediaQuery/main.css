@@ -1,21 +1,25 @@
-body ,*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
-body{
-    height: 100vh;
+.container{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 }
 
-div {
-    width: 300px;
-    height: 100px;
-    background-color: yellow;
-    border: 1px solid black;
-    /* transform: translate(100px,100px); */
-    /* transform: rotate(10deg); */
 
-  }
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: chartreuse;
+}
+
+@media screen and (max-width:700px){
+    .container{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .box{
+        margin: 10px;
+
+        background-color: crimson;
+    }
+}
+
