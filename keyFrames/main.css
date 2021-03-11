@@ -1,0 +1,28 @@
+.container{
+  
+}
+.container .box{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: #000;
+    margin: 10px;
+    animation-name: eloset;
+    animation-duration: 4s;
+    animation-iteration-count:2 ;
+    /* animation: adi 4s infinite; */
+}
+@keyframes eloset {
+    /* from{
+        top:0px;
+    }
+    to{
+        background-color: red;
+        top:100px;
+    } */
+    0%   {top: 0px; left: 0px; background: red;}
+    25%  {top: 0px; left: 200px; background: blue;}
+    50%  {top: 200px; left: 200px; background: yellow;}
+    75%  {top: 100px; left: 0px; background: green;}
+    100% {top: 0px; left: 0px; background: red;}
+}

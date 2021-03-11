@@ -1,0 +1,22 @@
+header{
+    width: 100%;
+    height: 200px;
+    background-color: green;
+    nav{
+        ul{
+            width: 70%;
+            @include space-between;
+            li{
+                a{
+                    color: $qirmizi;
+                }
+            }
+            
+        }
+    }
+}
+.qutu{
+    width: 100px;
+    height: 100px;
+    background-color: $qirmizi;
+}
