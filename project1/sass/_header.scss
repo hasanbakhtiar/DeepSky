@@ -1,0 +1,9 @@
+body{
+    height: 300vh;
+}
+.nav-link{
+    text-transform: capitalize;
+    &:hover{
+        color: red !important;
+    }
+}

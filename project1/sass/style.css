@@ -1,0 +1,30 @@
+body {
+  height: 300vh;
+}
+
+.nav-link {
+  text-transform: capitalize;
+}
+
+.nav-link:hover {
+  color: red !important;
+}
+
+.left-sec, .right-sec {
+  height: 570px;
+}
+
+.line-lenght {
+  width: 400px;
+}
+
+.line-lenght .line-left {
+  height: 3px;
+  background-color: deepskyblue;
+}
+
+.line-lenght .line-right {
+  height: 3px;
+  background-color: black;
+}
+/*# sourceMappingURL=style.css.map */
