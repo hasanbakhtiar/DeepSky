@@ -164,5 +164,7 @@ document.write("<br>"+ infoStriSt + infoStriNd+"<br>")
 
     
 
+
+
 // Other (Special) Operators (Xüsusi operatorlar) End
 // --------------------------------------------------------------------------------------------------
