@@ -87,24 +87,32 @@
 //   1.7.repeat()   -> dəyişkənin içindəki dəyəri parametrəyə yazılan say qədər çoxaldır
 //             metn.repeat(100);
 //   1.8.toString() -> dəyişkənin içindəki dəyəri mətinləşdirir.
-//             metn.toString();
+
+// const metn = 100;
+
+// var metn1 = metn.toString()
+//            document.write(typeof(metn1));
+//            document.write(typeof(metn));
+           
+
+
 //   1.9.String()   -> dəyişkənin içindəki dəyəri mütləq mətinləşdirir.
 //             String(metn);
 //   1.10.Number()  -> dəyişkənin içindəki dəyəri mütləq rəqəmləşdirir
 //   1.11.valueOf() ->
 //   1.12.indexOf() ->Dəyişkən içərisində parametrik olaraq dəyəri axtarır və ilk uyğun gələn dəyişkənin içindəki indis/index dəyəri göstərər.
-//             var metn = 'JavaScript'; -> böyük və kiçik hərf həssasdır.
-//             document.write(metn);
+//             var metn = 'JavaScript ava';// -> böyük və kiçik hərf həssasdır.
+//             // document.write(metn);
 //             var netice = metn.indexOf("Java");
-//             var netice = metn.indexOf("Java",15);rəqəmdən sora harada varsa onu tapır.
-//             qeyd: əgər məlumat orada yoxdursa -1 dəyəri alır.
+//             var netice = metn.indexOf("ava",10);//rəqəmdən sora harada varsa onu tapır.
+// //             qeyd: əgər məlumat orada yoxdursa -1 dəyəri alır.
 //             document.write(netice);
 
 //   lastIndexOf()  -> Dəyişkən içərisində parametrik olaraq dəyəri axtarır və son uyğun gələn dəyişkənin içindəki indis/index dəyəri göstərər.
-//              var metn = 'JavaScript Java';
-//             document.write(metn);
-//             var netice = metn.LastIndexOf("Java",32);sonuncu "Java" sözünü tapır.Yazılan rəqəm sayı qədər olan hissəyə qədər axtarır.
-//             document.write(netice);
+             var metn = 'JavaScript Java Java Java Java';
+            // document.write(metn);
+            var netice = metn.lastIndexOf("Java", 20);//sonuncu "Java" sözünü tapır.Yazılan rəqəm sayı qədər olan hissəyə qədər axtarır.
+            document.write(netice);
 //   1.13.startWith() -> hər hansı bir dəyəri methodun parametr hissəsinə daxil edərək dəyişkənin ƏVVƏLİNDƏ olub olmamasını Boolean(true/false) data tipi ilə göstərir 
 //             var metn = "JavaScript superdir";
 //             metn.startWith("JavaScript");

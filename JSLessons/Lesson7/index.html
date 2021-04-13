@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 7</title>
+</head>
+<body>
+<script>
+    var a = document.getElementById('inputText').value;
+</script>
+
+        <input id="inputText"  type="text">
+        <button onclick="addText(document.getElementById('inputText').value)" type="submit">Submit</button>
+
+        <p></p>
+ 
+
+
+    <script>
+        
+function addText(infoText){
+    
+    document.getElementsByClassName('p')[0].innerHTML = infoText;
+}
+
+    </script>
+    <!-- <script src="main.js"></script> -->
+</body>
+</html>
